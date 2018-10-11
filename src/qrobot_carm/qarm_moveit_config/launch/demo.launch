@@ -57,7 +57,7 @@
     <arg name="moveit_warehouse_database_path" value="$(arg db_path)"/>
   </include>
   <!-- start rob control -->
-  <include file="$(find rob_control)/launch/rob_control.launch" >
+  <include file="$(find qarm_control)/launch/qarm_control.launch" >
 	launch-prefix="xterm -e"
   </include>
 
