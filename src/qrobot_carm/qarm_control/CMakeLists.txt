@@ -193,3 +193,6 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(qarm_control src/qarm_control.cpp src/qarm_comm.cpp)
+target_link_libraries(qarm_control ${catkin_LIBRARIES} )
