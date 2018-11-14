@@ -1,0 +1,8 @@
+prefix=/home/qfc/qrobot/devel
+
+Name: arm1_description
+Description: Description of arm1_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/qfc/qrobot/devel/lib 
+Requires: 

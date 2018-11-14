@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/qfc/qrobot/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/qfc/qrobot/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/qfc/qrobot/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/qfc/qrobot/src:$ROS_PACKAGE_PATH"

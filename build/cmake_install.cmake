@@ -117,6 +117,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/qfc/qrobot/build/gtest/cmake_install.cmake")
+  include("/home/qfc/qrobot/build/qrobot_carm/carm_description/cmake_install.cmake")
+  include("/home/qfc/qrobot/build/qrobot_carm/qarm_control/cmake_install.cmake")
+  include("/home/qfc/qrobot/build/qrobot_carm/arm1_description/cmake_install.cmake")
+  include("/home/qfc/qrobot/build/qrobot_carm/qarm_description/cmake_install.cmake")
+  include("/home/qfc/qrobot/build/qrobot_carm/qarm_moveit_config/cmake_install.cmake")
 
 endif()
 

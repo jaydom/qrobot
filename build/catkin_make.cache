@@ -1,2 +1,2 @@
-
+qrobot_carm/arm1_description:qrobot_carm/carm_description:qrobot_carm/qarm_control:qrobot_carm/qarm_description:qrobot_carm/qarm_moveit_config
 -DCATKIN_DEVEL_PREFIX=/home/qfc/qrobot/devel -DCMAKE_INSTALL_PREFIX=/home/qfc/qrobot/install -G Unix Makefiles
